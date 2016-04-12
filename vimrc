@@ -38,15 +38,16 @@ VAMActivate github:chrisbra/Recover.vim
 VAMActivate github:genadyp/vawa.vim
 
 " theme
- set background=dark
- set t_Co=256
+set background=dark
+set t_Co=256
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
-colorscheme solarized
+colorscheme jellybeans
 
 " perl
 let perl_no_subprototype_error=1
 let perl_extended_vars = 1
+let perl_include_pod = 1
 
 " mojolicious
 let mojo_highlight_data=1
