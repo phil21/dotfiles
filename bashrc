@@ -64,7 +64,7 @@ if [ "$color_prompt" = yes ]; then
     # PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
     # DIR 00;38;5;33 # directory 01;34¬
     PS1="\u@\[\e[37m\]\h\[\e[m\]\[\e[36m\]\w\[\e[m\]\\$ "
-    PS1="[\u@\h `EXT_COLOR 33`\w${NO_COLOUR}]\$ "
+    PS1="`EXT_COLOR 2`[\u@\h `EXT_COLOR 33`\w${NO_COLOUR}]\$ "
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
