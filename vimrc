@@ -78,6 +78,11 @@ set shiftwidth=2          " indent/outdent by 2 columns
 set shiftround            " always indent/outdent to the nearest tabstop
 set expandtab             " use spaces instead of tabs
 
+"line tracking
+set numberwidth=5
+set cursorline
+set cursorcolumn
+
 " search
 nnoremap / /\v
 vnoremap / /\v
